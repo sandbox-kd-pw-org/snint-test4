@@ -3,7 +3,7 @@
 
 locals {
 
-  app_service_plan_name = "REPLACE_ME" # E.G. "snint${local.env}asp001"
+  app_service_plan_name = "snint-asp-01" # E.G. "snint${local.env}asp001"
 
   env_map = {
     Development = "dev",
@@ -15,7 +15,7 @@ locals {
   }
 
 
-  log_analytics_workspace_name = "REPLACE_ME" # E.G. snint${local.env}law001 for azure integrations
+  log_analytics_workspace_name = "correctLawValue" # E.G. snint${local.env}law001 for azure integrations
 
   sensitive_app_settings = {
   }
